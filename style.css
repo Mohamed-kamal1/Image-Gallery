@@ -18,6 +18,7 @@ img{
     display: none;
     animation-name: display;
     animation-duration: 1.5s;
+
 }
 .slides button{
     cursor: pointer;
@@ -59,9 +60,11 @@ img{
 @keyframes display{
     from{
         opacity: 0.4;
+        /*transform: translateX(100%);*/
     }
     to{
         opacity: 1;
+        /*transform: translateX(0);*/
     }
 }
 
